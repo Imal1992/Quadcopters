@@ -1,0 +1,40 @@
+{
+  "quadcopters": [{
+    "title" : "Micro-Sized – generally the size of your open hand including the propellers",
+    "name": "JJRC 1000",
+    "maxspeed" : "60km/h",
+    "batteryremaining" : "25%",
+    "description": "<p></p>",
+    "images": ["Lorenzo_Garcia_01_tn.jpg", "Lorenzo_Garcia_02_tn.jpg", "Lorenzo_Garcia_03_tn.jpg", "Lorenzo_Garcia_04_tn.jpg"]
+  },{
+    "title" : "Mini-Sized – about 10 inches square – lightweight",
+    "name": "Syma X8C Venture",
+    "maxspeed" : "56km/h",
+    "batteryremaining": "30%",
+    "description": "<p></p>",    
+    "images" : ["Hillary_Goldwynn_01_tn.jpg" , "Hillary_Goldwynn_02_tn.jpg" , "Hillary_Goldwynn_03_tn.jpg" , "Hillary_Goldwynn_04_tn.jpg" , "Hillary_Goldwynn_05_tn.jpg" , "Hillary_Goldwynn_06_tn.jpg" , "Hillary_Goldwynn_07_tn.jpg"]
+  },{
+    "title" : "DJI Mavic Pro – a compact foldable Quadcopter",
+    "name": "DJI Mavic Pro",
+    "maxspeed" : "72km/h",
+    "batteryremaining": "28%",
+    "description": "<p></p>",
+    "images" : ["Riley_Rewington_01_tn.jpg","Riley_Rewington_02_tn.jpg","Riley_Rewington_03_tn.jpg","Riley_Rewington_04_tn.jpg","Riley_Rewington_05_tn.jpg","Riley_Rewington_06_tn.jpg"]
+  }],
+
+  "social" : [{
+    "shortname" : "twitter",
+    "img" : "/images/socialmedia/twitter.png",
+    "url" : "http://www.twitter.com/rouxmeet"
+  },{
+    "shortname" : "facebook",
+    "img" : "/images/socialmedia/facebook.png",
+    "url" : "http://www.facebook.com/rouxmeet"
+  },{
+    "shortname" : "meetup",
+    "img" : "/images/socialmedia/meetup.png",
+    "url" : "http://www.meetup.com/rouxmeet/"
+  }]
+
+
+}

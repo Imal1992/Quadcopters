@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body>
+  	<% include partials/template/header.ejs %>
+    
+  	<section class="layout">
+      <div class="primary">
+
+      <ul class="group">
+
+          <% for (var d=0;d<quadcopters.length;d++){%>
+            <h1><%= quadcopters[d].title %></h1>
+            <h1><%= quadcopters[d].name %></h1>
+            <h1><%=quadcopters[d].maxspeed %></h1>
+            <h1><%=quadcopters[d].batteryremaining %></h1> 
+            <h1><%=quadcopters[d].description %></h1>  
+          <% } %>
+       
+
+      </ul>
+        
+      </div><!-- primary -->
+      <aside class="secondary">
+        
+      </aside><!-- secondary -->
+    </section><!-- layout -->
+
+    <% include partials/template/footer.ejs %>
+    <% include partials/template/jsdefaults.ejs %>
+  </body>
+</html>
