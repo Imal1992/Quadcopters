@@ -10,18 +10,23 @@
       <ul class="group">
 
           <% for (var d=0;d<quadcopters.length;d++){%>
-            <h1><%= quadcopters[d].title %></h1>
-            <h1><%= quadcopters[d].name %></h1>
-            <h1><%=quadcopters[d].maxspeed %></h1>
-            <h1><%=quadcopters[d].batteryremaining %></h1> 
-            <h1><%=quadcopters[d].description %></h1>  
+            <h2>Title of the Quadcopter : </h2><%= quadcopters[d].title %>
+            <h2>Name of the Quadcopter :</h2><%= quadcopters[d].name %>
+            <h2>Max speed of the Quadcopter : </h2><%=quadcopters[d].maxspeed %>
+            <h2>Remaining battery percentage : </h2><%=quadcopters[d].batteryremaining %>
+            <h2>Description : </h2><%=quadcopters[d].description %> 
+            <p>------------------------------------------------------------</p>
           <% } %>
        
-
       </ul>
         
       </div><!-- primary -->
       <aside class="secondary">
+      
+          <h2>The Quadcopters list</h2>
+          <% for (var d=0;d<quadcopters.length;d++){%>
+            <h2></h2><%= quadcopters[d].name %> 
+          <% } %>
         
       </aside><!-- secondary -->
     </section><!-- layout -->
