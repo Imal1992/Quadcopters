@@ -1,10 +1,13 @@
-Go to D:\Projects\QuadCopters\QuadCopters using command prompt.
+Go to project location using command prompt.
+Type below command.
 
-SET DEBUG=quadcopters:* & npm start
+---> SET DEBUG=quadcopters:* & npm start <--
 
 Re run the above code each and every time you made a change to the code.
+Use below codes to run the mongoDB server.
+Create database named "quadcopters" and collection named "description".
 
-"C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe" to run MongoDB
-"C:\Program Files\MongoDB\Server\3.2\bin\mongo.exe"
+--> "C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe" <--
+--> "C:\Program Files\MongoDB\Server\3.2\bin\mongo.exe" <--
 
 Then open web browser and enter localhost:3000 
