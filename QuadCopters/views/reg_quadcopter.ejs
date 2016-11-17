@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body>
+  	<% include partials/template/header.ejs %>
+    
+  	<section class="layout">
+      <div class="primary">
+        
+    <form name="reg-quad" method="post" action="/quadcopters" >
+      Name:
+      <input type="text" name="name"><br>
+      Model:
+      <input type="text" name="model"><br>
+      Brand:
+      <input type="text" name="brand"><br>
+      Max Speed:
+      <input type="text" name="max_speed"><br>
+      Battery percentage:
+      <input type="text" name="batt_per"><br>
+      Connectivity range:
+      <input type="text" name="con_range"><br>
+      Weight:
+      <input type="text" name="weight"><br>
+      Radio Button: Are the wings Collapsable?<br>
+      <input type="radio" name="wings" value="yes">Yes
+      <input type="radio" name="wings" value="no">No<br>
+      <input type="submit" value="submit"><br>
+    </form>
+
+      </div><!-- primary -->
+      <aside class="secondary">
+        
+      </aside><!-- secondary -->
+    </section><!-- layout -->
+
+    <% include partials/template/footer.ejs %>
+    <% include partials/template/jsdefaults.ejs %>
+  </body>
+</html>
